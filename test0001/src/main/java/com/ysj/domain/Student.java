@@ -7,6 +7,15 @@ package com.ysj.domain;
  */
 public class Student {
     private String name;
+    private Integer age;
+
+    public Integer getAge() {
+        return age;
+    }
+
+    public void setAge(Integer age) {
+        this.age = age;
+    }
 
     public String getName() {
         return name;
@@ -15,4 +24,10 @@ public class Student {
     public void setName(String name) {
         this.name = name;
     }
+
+//    public static void main(String[] args) {
+//        Student student = new Student();
+//        student.setName("zhangsan");
+//        System.out.println(student.getName());
+//    }
 }
